@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#drum-machine {
+  height: 250px;
+  width: 500px;
+  padding: 10px;
+  background-color: lightgray;
+  border: 5px solid black;
+  box-shadow: 3px 3px 8px 0px black;
+  grid-template-columns: 50% 50%;
+  margin: 10px auto;
+}
+
+#drum-buttons {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+}
+
+.drum-pad {
+  margin: 2px;
+  background-color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.grow-hover:hover {
+  transform: scale(1.05);
+}
